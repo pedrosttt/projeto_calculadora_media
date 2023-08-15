@@ -1,0 +1,111 @@
+/* Estilos para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos para o corpo da página */
+body {
+    background-color: #E7E7E7;
+    padding-top: 100px; /* Espaçamento superior */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px; /* Espaçamento inferior */
+}
+
+/* Estilos para a imagem do cabeçalho */
+header img {
+    height: 36px;
+    margin-right: 16px; /* Espaçamento à direita */
+}
+
+/* Estilos para o título do cabeçalho */
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Estilos para o container principal */
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto; /* Centralização horizontal */
+}
+
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline; /* Alinhar elementos pela linha de base */
+    margin-bottom: 56px; /* Espaçamento inferior */
+}
+
+form input {
+    flex: 1; /* Expande a entrada de texto para preencher o espaço restante */
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 8px;
+    margin-right: 8px; /* Adiciona espaço entre os elementos */
+}
+
+form button {
+    background-color: #009432;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+
+/* Estilos para a tabela */
+table {
+    width: 100%;
+}
+
+/* Estilos para os cabeçalhos de coluna na tabela */
+table th {
+    border-bottom: 2px solid black;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Estilos para as células de dados na tabela */
+table td {
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 0; /* Espaçamento vertical e horizontal */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para as imagens nas células de dados na tabela */
+table td img {
+    height: 30px;
+}
+
+/* Estilos para o resultado (aprovado/reprovado) */
+.resultado {
+    padding: 8px;
+    border-radius: 3px;
+}
+
+/* Estilos específicos para aprovado */
+.aprovado {
+    background-color: #009432;
+}
+
+/* Estilos específicos para reprovado */
+.reprovado {
+    background-color: red;
+}
